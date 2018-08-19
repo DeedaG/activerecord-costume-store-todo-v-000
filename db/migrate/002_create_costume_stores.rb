@@ -1,14 +1,14 @@
 # Create your costume_stores migration here
 class CreateCostumeStores < ActiveRecord::Migration[4.2]
   def change
-    create_table :costume_stores do |t|
-      t.string :name
-      t.string :location
-      t.integer :number_ofcostumes
-      t.integer :number_ofemployees
-      t.boolean :still_in_business
-      t.timestamp :created_at
-      t.timestamp :updated_at
+    create_table :costume_stores do |c|
+      c.string :name
+      c.string :location
+      c.integer :number_ofcostumes
+      c.integer :number_ofemployees
+      c.boolean :still_in_business
+      c.timestamp :created_at
+      c.timestamp :updated_at
     end
   end
 end
