@@ -6,7 +6,7 @@ class CreateCostume < ActiveRecord::Base
       t.string :name
       t.string :price
       t.integer :size
-      t.string :imageurl
+      t.binary :imageurl
     end
   end
 end
