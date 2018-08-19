@@ -5,7 +5,7 @@ class CreateCostume < ActiveRecord::Base
     create_table :costumes do |t|
       t.string :name
       t.string :price
-      :size
+      t.integer :size
       :image url
     end
   end
