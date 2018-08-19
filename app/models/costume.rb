@@ -2,7 +2,7 @@
 # It should inherit from ActiveRecord::Base
 class CreateCostume < ActiveRecord::Base
   def change
-    create_table :dogs do |t|
+    create_table :costumes do |t|
       t.string :name
       t.string :price
       :size
